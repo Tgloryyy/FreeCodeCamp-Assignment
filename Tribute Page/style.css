@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto:wght@500&display=swap');
+
+
+:root{
+    --red: #A62103;
+    --black: #1C3940;
+    --green: #3C8C03;
+    --dgreen: #265902;
+    --orange: #D95204;
+    --white: rgb(212, 209, 209);
+    }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'libre franklin', sans-serif;
+    color: var(--white);
+}
+
+#main{
+    background-color: var(--black);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#head{
+    text-align: center;
+}
+#info{
+    padding-bottom: 10px;
+}
+
+#head > h1{
+    color: var(--red);
+    margin-top: 30px;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+#image{
+    margin-top: 30px;
+    width: 25%;
+}
+
+#img-caption{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#img-div{
+    background-color: var(--dgreen);
+}
+
+#tribute-info{
+    text-align: center;
+    padding: 30px;
+}
+
+#tribute-info > h2{
+    padding-bottom: 20px;
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#tribute-info >p{
+    line-height: 25px;
+    font-weight: bold;
+}
+
+footer > p{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: var(--green);
+}
+a{
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bold;
+}
