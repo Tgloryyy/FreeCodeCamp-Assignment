@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=JetBrains+Mono:wght@600&display=swap');
-
+/* 'JetBrains Mono', monospace; */
 *{
     margin: 0;
     padding: 0;
@@ -12,24 +12,56 @@
     --yellow: #FBC740;
     --blue: #66d2d6;
 }
-.maindiv{
-    position: relative;
-    border-style: solid;
-}
+body{
 
-.formdiv{
-    width: auto;
-    height: auto;
-    border-style: solid;
-    position: absolute;
-    left: 20%;
-    right: 20%;
-    display: flex;
-    flex-direction: column;
-    column-gap: 10px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: var(--purple);
+    line-height: 2;
+    width: 500px;
+    margin: auto;
+}
+form{
+    background-color: rgba(102, 210, 214, 0.6);
+    padding: 2.5rem 2.5rem;
+    border-radius: 5%;
+    width: 500px;
+    margin: auto;
+}
+.submit-button{
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    background: var(--pink);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: var(--yellow);
 }
 .headd{
-    font-family: 'JetBrains Mono', monospace;
+    margin:0 auto 1.25rem 0;
     text-align: center;
-    padding: 2.5rem;
+    padding: 0.25rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bolder;
+    font-size: 100%;
+}
+.lbl{
+    font-weight: 900;
+    padding: 0.25rem;
+}
+
+.form-inputs{
+    display: block;
+    width: 90%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--pink);
+    border: 1px solid;
+    border-radius: 0.25rem;
+}
+.tarea{
+    width: 100%;
+    height: auto;
+    resize: none;
+    border-radius: 10px;
 }
