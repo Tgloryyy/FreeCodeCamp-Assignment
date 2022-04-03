@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200&family=Fraunces&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --darkgrey: #868B8E;
+    --lightgrey: #B9B7BD;
+    --white: #EEEDE7;
+    --pink: #E7D2CC;
+}
+
+body{
+    color: #333;
+    background-color: var(--white);
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+}
+
+.headd{
+    font-size: larger;
+    padding: 1.5rem;
+    background-color: var(--darkgrey);
+    font-family: 'Fraunces', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec{
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.anchor{
+    text-decoration: none;
+    color: #333;
+}
+
+.anchor:hover{
+    color: var(--lightgrey);
+}
+
+.suscribe{
+   padding: 2.1rem;
+   text-align: center;
+   color: rgb(36, 35, 35);
+   line-height: 1.5;
+   position: relative;
+  
+}
+
+#email{
+    font-size: small;
+    color: #333;
+    padding: 0.3rem;
+}
+
+#btn{
+    padding: 0.5rem;
+    border-radius: 10%;
+    background-color: var(--pink);
+    cursor: pointer;
+    border: 1px solid;
+
+    position: absolute;
+    top: 6.3rem;
+    left: 42rem;
+}
+
+#btn:hover{
+    background-color: var(--darkgrey);
+}
+
+.sectio{
+    margin-top:30px ;
+    padding: 30px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightgrey);
+}
+
+.f > h2{
+    font-weight: bolder;
+    line-height: 2rem;
+    font-family: 'Fraunces', serif;
+}
+.f{
+    padding: 20px;
+}
+
+.price{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.guitar{
+    border: 3px solid;
+    width: calc(100% / 3);
+    text-align: center;
+    border-radius:3px ;
+}
+.h{
+    background-color: var(--lightgrey);
+    font-weight: bolder;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.guitar > h3{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(26, 25, 25);
+}
+
+.foot{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--darkgrey);
+}
